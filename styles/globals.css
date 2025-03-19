@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Custom Global Styles */
+body {
+  @apply bg-gray-100 text-gray-900;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Optional: Custom container */
+.container {
+  @apply max-w-7xl mx-auto px-4;
+}
+
+/* Optional: Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
